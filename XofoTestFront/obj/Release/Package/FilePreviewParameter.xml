@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="XofoTestFront" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Rodolfo\\Documents\\Projects\\Actinver\\XofoTestFront\\XofoTestFront\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Rodolfo\\Documents\\Projects\\Actinver\\XofoTestFront\\XofoTestFront\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ApplicationDbContext-Web.config Connection String" description="" value="Data Source=tcp:xofotestfront.database.windows.net,1433;Initial Catalog=XofoTestFront;User Id=xofotest@xofotestfront.database.windows.net;Password=Qwerty12#" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Rodolfo\\Documents\\Projects\\Actinver\\XofoTestFront\\XofoTestFront\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="XofoTestFrontContext-Web.config Connection String" description="" value="Data Source=tcp:xofotestfront.database.windows.net,1433;Initial Catalog=XofoTestFront;User Id=xofotest@xofotestfront.database.windows.net;Password=Qwerty12#" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Rodolfo\\Documents\\Projects\\Actinver\\XofoTestFront\\XofoTestFront\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='XofoTestFrontContext']/@connectionString" />
+  </parameter>
+</parameters>
